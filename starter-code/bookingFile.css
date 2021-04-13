@@ -80,6 +80,7 @@ body{
   padding-top:10px;
   padding-bottom: 10px;
   border-bottom: 1px solid lightgray;
+  padding-left:20px;
 }
 #pick-date{
   color:gray;

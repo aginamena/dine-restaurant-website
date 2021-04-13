@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootstrap links -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href = "styles.css" rel = "stylesheet">
+
+  <title>Frontend Mentor | Dine Website Challenge</title>
+</head>
+<body>
+
+  <section id = "heading">
+    <div id = "name_of_restaurant1" class = "container">dine</div>
+    <div class = "container" id = "heading-div">
+      <div id ="heading-title">Exquisite dining since 1989</div>
+
+      <div id = "heading-text" class = "font-weight">Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from
+      the comfort of our farmhouse.</div>
+
+      <a href = "booking.html"><button id ="book_a_table">Book a table</button></a>
+    </div>
+  </section>
+
+  <!-- this image is positioned relative to the body element -->
+  <img src = "images/patterns/pattern-curve-top-right.svg" id = "top-right">
+
+  <section id = "section-two" class = "container">
+    <img src = "images\homepage\enjoyable-place-desktop.jpg" id ="enjoyable-place">
+    <div id = "enjoyable-place-heading">
+      <div class ="section-two-heading">Enjoyable place for all the family</div>
+      <div class = "section-two-text font-weight">Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange
+      a tour of the farm before your meal.</div>
+    </div>
+
+    <div id = "locally-sourced-heading">
+      <!-- <img src = "images/patterns/pattern-curve-top-left.svg" id = "top-left"> -->
+      <div class = "section-two-heading">The most locally sourced food</div>
+      <div class = "font-weight">All our ingredients come directly from our farm or local fishery. So you can be sure that you’re
+      eating the freshest, most sustainable food.</div>
+    </div>
+    <img src = "images\homepage\locally-sourced-desktop.jpg" id = "locally-sourced-img">
+    <!-- <img src = "images/patterns/pattern-lines.svg" id = "pattern-divide2"> -->
+  </section>
+  <img src = "images/patterns/pattern-curve-top-left.svg" id = "top-left">
+
+  <section id ="section-three">
+    <div class = "container" id = "section-three-menu">
+
+      <div id ="section-three-intro">
+        <div id = "section-three-heading">A few highlights from our menu</div>
+        <div id = "section-three-heading-text" class = "font-weight">We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites.
+        Our menu is revamped every season.</div>
+      </div>
+
+      <div id = "section-three-features">
+
+      <div class = "section-three-menu-item" id = "first-menu-item">
+        <img src = "images\homepage\salmon-desktop-tablet@2x.jpg" class = "section-three-image" id = "salmon-fil-img">
+        <div class = "menu-desc">
+          <div class = "menu-item-name">Seared Salmon Fillet</div>
+          <div class = "section-three-features-text font-weight">Our locally sourced salmon served with a refreshing buckwheat summer salad.</div>
+        </div>
+      </div>
+
+      <div class = "section-three-menu-item" id ="second-menu-item">
+        <img src = "images\homepage\beef-desktop-tablet@2x.jpg" class = "section-three-image" id = "rosemary-fil-img">
+        <div class = "menu-desc">
+          <div class = "menu-item-name">Rosemary Filet Mignon</div>
+          <div class = "section-three-features-text font-weight">Our prime beef served to your taste with a delicious choice of seasonal sides.</div>
+        </div>
+      </div>
+
+      <div class = "section-three-menu-item" id = "third-menu-item">
+        <img src = "images\homepage\chocolate-desktop-tablet@2x.jpg" class = "section-three-image" id = "summer-fruit-img">
+        <div  id = "section-three-summer-fruit-text" class = "menu-desc">
+          <div class = "menu-item-name">Summer Fruit Chocolate Mousse</div>
+          <div class = "section-three-features-text font-weight">Creamy mousse combined with summer fruits and dark chocolate shavings.</div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <img src = "images/patterns/pattern-curve-bottom-right.svg" id = "section-four-bg">
+  <section id = "section-four" class = "container">
+    <img src = "images\homepage\family-gathering-desktop.jpg" id = "section-four-image">
+    <img src = "images/patterns/pattern-lines.svg" id = "pattern-divide">
+    <div id = "section-four-desc">
+      <div id = "section-four-heading">Family Gathering</div>
+      <div id = "section-four-text" class = "font-weight">We love catering for entire families. So please bring everyone along for a special meal with your
+      loved ones. We’ll provide a memorable experience for all.</div>
+      <a href = "booking.html"><button id ="book_a_table2">Book a table</button></a>
+      <div id ="section-four-links">
+        <div id = "section-four-first-link" class = "links">Family Gathering</div>
+        <div id = "section-four-second-link" class = "links">Special Events</div>
+        <div id = "section-four-third-link" class = "links">Social Events</div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "section-five">
+    <div class = "container" id = "reservation">
+      <div id = "ready-to-reverse">Ready to make reservation?</div>
+      <a href = "booking.html"><button id = "ready-to-reverse-booking">Book a table</button></a>
+    </div>
+  </section>
+
+  <section id = "section-six">
+
+    <div class = "container" id ="contact-us">
+    <div id = "name_of_restaurant2">dine</div>
+    <div id ="contact-us-first-link">
+      <div class ="contact-us-link">Marthwaite, Sedbergh </div>
+      <div class ="contact-us-link">Cumbria</div>
+      <div class ="contact-us-link">+00 44 123 4567</div>
+    </div>
+
+    <div id ="contact-us-second-link">
+      <div class ="contact-us-link">Open Times</div>
+      <div class ="contact-us-link">Mon - Fri: 09:00 AM - 10:00 PM</div>
+      <div class ="contact-us-link">Sat - Sun: 09:00 AM - 11:30 PM</div>
+    </div>
+    </div>
+  </section>
+
+</body>
+<script src = "script/dom.js"></script>
+</html>

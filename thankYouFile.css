@@ -1,0 +1,40 @@
+*{
+  /* removing default browser styling and setting the elements to have a fixed width */
+  border:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("images/booking/hero-bg-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color:white;
+  position: relative;
+}
+#heading{
+  padding-top: 30px;
+}
+#ok-button{
+  width: 152px;
+  height: 37px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+#ok-button:hover{
+  border:3px solid white;
+}
+#booked-text{
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+#close-up{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}

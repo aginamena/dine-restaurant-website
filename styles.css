@@ -1,0 +1,461 @@
+*{
+  /* removing default browser styling and setting the elements to have a fixed width */
+  border:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* body{
+  position: relative;
+} */
+#background-desktop{
+  /* take full width of the parent (body) */
+  width:100%;
+}
+#heading{
+  background: url("images/homepage/hero-bg-desktop.jpg");
+  color:white;
+  height:100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.font-weight{
+  font-weight: 100;
+}
+#heading-text{
+  width: 340px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#heading-title{
+  font-size: 50px;
+  width: 400px;
+  line-height: 1.2;
+  font-weight: 300
+}
+#book_a_table, #book_a_table2{
+  width: 152px;
+  height: 37px;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+#book_a_table:hover{
+  border: 3px solid white;
+}
+#heading-div{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+#name_of_restaurant1, #name_of_restaurant2{
+  padding-top:30px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+/* section two styling */
+#section-two{
+  position: relative;
+  height:1390px;
+}
+#top-right{
+  position: absolute;
+  top:130%;
+}
+#top-left{
+  position: absolute;
+  top: 265%;
+  right: 0;
+}
+#enjoyable-place{
+  position: absolute;
+  top: -60px;
+  left:0;
+}
+#enjoyable-place-heading{
+  position: absolute;
+  right:0;
+  transform: translateY(100%);
+}
+
+.section-two-heading{
+  font-size: 40px;
+  width: 300px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.section-two-text{
+  width:400px;
+}
+#locally-sourced-img{
+  position: absolute;
+  right: 0;
+  /* the height of enjoyable place is 720px so this image should come after it
+  that's why it has a top of 720px */
+  top: 720px;
+}
+#locally-sourced-heading{
+  position: absolute;
+  top: 720px;
+  width: 400px;
+  transform: translateY(100%);
+}
+
+/* section three styling */
+#section-three{
+  background: black;
+  color:white;
+  padding-top:200px;
+  padding-bottom: 100px;
+}
+#section-three-summer-fruit-text{
+  width:300px;
+  margin-left:25px;
+}
+#section-three-menu{
+  position: relative;
+  height: 700px;
+}
+.section-three-menu-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.section-three-menu-item:hover{
+  border:1px solid white;
+}
+#section-three-features{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  justify-content: space-between;
+}
+#section-three-intro{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#section-three-heading{
+  font-size: 40px;
+  width: 350px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+#section-three-heading-text{
+  width:340px;
+}
+.section-three-features-text{
+  width:300px;
+  font-weight: 300;
+}
+.menu-item-name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* section four styling */
+#section-four-bg{
+  position: absolute;
+  width: 490px;
+  height: 250px;
+}
+#pattern-divide{
+  position: absolute;
+  left: -30px;
+  top: 70px;
+}
+
+#section-four{
+  padding-top:100px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#section-four-desc{
+  position: absolute;
+  right:0;
+  /* center along the y axis */
+  top:50%;
+  transform: translateY(-50%);
+}
+#section-four-text{
+  width:350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#section-four-heading{
+  font-size: 40px;
+}
+#section-four-links{
+  margin-top:40px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#section-four-second-link{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+.links{
+  text-decoration: underline;
+}
+.links:hover{
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+/* section five styling */
+#section-five{
+  background: url("images/homepage/ready-bg-desktop.jpg");
+  height:180px;
+  color:white;
+}
+#reservation{
+  display: flex;
+  height:100%;
+  /* the button and the text just be centered x and y */
+  justify-content: space-around;
+  align-items: center;
+}
+#ready-to-reverse{
+  font-size: 35px;
+}
+#ready-to-reverse-booking{
+  width: 152px;
+  height: 37px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  background:none;
+  color:white;
+}
+#ready-to-reverse-booking:hover{
+  border: 3px solid white;
+}
+
+/* section five styling */
+#section-six{
+  height:180px;
+  background:black;
+  color:white;
+
+}
+#contact-us{
+  display: flex;
+  justify-content: space-between;
+  height:100%;
+  align-items: center;
+  position: relative;
+}
+#contact-us-first-link,#contact-us-second-link{
+  text-transform: uppercase;
+  font-weight: 100;
+  cursor: pointer;
+}
+.contact-us-link:hover{
+  font-weight: bold;
+}
+
+
+/* media querries */
+
+@media(max-width:770px){
+  #section-six{
+    height: 300px;
+  }
+  #contact-us{
+    display: block;
+  }
+  #contact-us-first-link{
+    /* centering the element */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #contact-us-second-link{
+    position: absolute;
+    left: 55%;
+    transform: translateX(-55%);
+    top:60%;
+  }
+  #reservation{
+    flex-direction:column;
+  }
+}
+
+@media(max-width:460px){
+  #section-six{
+    height:350px;
+    text-align: center;
+  }
+  #contact-us-second-link, #contact-us-first-link{
+    position: static;
+    transform: none;
+  }
+  #contact-us-first-link{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* heading media query */
+@media(max-width:992px){
+  /* for tablet size */
+  #heading{
+    height: 900px;
+    text-align: center;
+  }
+  #heading-div{
+    top:60%;
+    transform: translateX(-50%);
+  }
+  #heading-text, #heading-title{
+    width:100%;
+  }
+  #top-right, #top-left, #section-four-bg{
+    display: none;
+  }
+  #name_of_restaurant1{
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  #first-menu-item, #second-menu-item, #third-menu-item{
+    margin-top:100px;
+  }
+  .menu-desc{
+    margin-top:50px;
+  }
+
+}
+@media(max-width:650px){
+  #name_of_restaurant1{
+    top:30%;
+  }
+  #heading-div{
+    top:50%;
+  }
+}
+
+/* media querries for section two */
+@media(max-width: 992px){
+  #enjoyable-place, #locally-sourced-img{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #enjoyable-place-heading{
+    text-align: center;
+    top:200px;
+  }
+  .section-two-heading, .section-two-text, #section-three-heading, #section-three-heading-text,
+  .section-three-features-text, #section-three-summer-fruit-text, #section-four-desc,
+  #section-four-text, #section-four-heading{
+    width:100%;
+  }
+  #section-three-summer-fruit-text{
+    margin-left: 0;
+  }
+  #locally-sourced-heading{
+    width: 100%;
+    bottom: 300px;
+    text-align: center;
+  }
+  #section-two{
+    height: 1500px;
+  }
+  #section-three-intro, #section-three-features{
+    position: static;
+    transform: none;
+  }
+  #section-three{
+    height: 1900px;
+    text-align: center;
+  }
+  .section-three-menu-item{
+    display: block;
+  }
+  #section-four{
+    height: 1000px;
+  }
+  #section-five{
+    text-align: center;
+  }
+  #section-four-image{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #section-four{
+    text-align: center;
+  }
+  #section-four-links{
+    position: absolute;
+    width:100%;
+  }
+  #section-four-heading{
+    position: absolute;
+    top:180px;
+  }
+  #section-four-text{
+    position: absolute;
+    top:250px;
+  }
+  #book_a_table2{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #section-four-image{
+    width:326px;
+    height: 400px;
+  }
+
+}
+@media(max-width:992px) and (min-width:768px){
+  #enjoyable-place-heading{
+    margin-top:90px;
+  }
+  #section-three{
+    height: 1800px;
+  }
+  #section-four-links{
+    display: flex;
+    justify-content: space-between;
+    top:10px;
+  }
+  #section-four-second-link{
+    margin-top:0;
+    margin-bottom: 0;
+  }
+  #section-four-heading{
+    top: 120px;
+    width:100%;
+  }
+  #section-four-text{
+
+    top: 200px;
+    width:100%;
+  }
+  #book_a_table2{
+    top: 350px;
+  }
+  #section-four-image{
+    width:573px;
+    height:360px;
+  }
+}
+
+@media(max-width:350px){
+  .section-three-image{
+    width:100%;
+  }
+}
